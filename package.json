@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "git@github.com:mattlaguardia/algo-practicar.git",
   "author": "Kevin Luke Mike Matt",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
