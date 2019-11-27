@@ -1,5 +1,7 @@
 # algo-practicar
 
+This project uses yarn as a package manager. So no `npm install`, instead use `yarn install`
+
 ## Todos:
   
   **Set up**
@@ -27,7 +29,7 @@
     - [ ] Set up so that testing suite show errors on front end markup
 
 ### How to test
----
+  ---
   > This project has been set up with jest for testing nodejs. We may want to consider using a node -> es6 package as we are not able to use 
   ```javascript 
     import packageName from 'dependency'
