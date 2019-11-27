@@ -17,6 +17,7 @@
   - [x] Set up testing suite to test algos
     - maybe use jest if node compatible
   - [ ] Set up js linters
+  - [doing] Set up github action
 
 ### How to test
 ---
