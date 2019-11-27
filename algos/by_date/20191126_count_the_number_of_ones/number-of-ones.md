@@ -50,5 +50,3 @@ No need to worry about an empty array input case.
 ​
 * What algorithm can we use on _sorted_ data sets to help us optimize this solution?
 * Which value in the array are we looking for, from which determining the number of ones is constant time?
-
-Testing slack
