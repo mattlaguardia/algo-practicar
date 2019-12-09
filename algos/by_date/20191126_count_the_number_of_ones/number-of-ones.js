@@ -1,3 +1,18 @@
-const sum = (a, b) => a + b;
+const numberOfOnes = (arr) => {
+  let amount = 0;
 
-module.exports = sum;
+  for (let i = 0; i < Math.ceil(arr.length / 2); i++) {
+    if (arr[i] === 1) {
+      amount++
+    };
+  }
+
+  for (let i = arr.length; i >= Math.ceil(arr.length / 2); i--) {
+    if (arr[i] === 1) {
+      amount++
+    };
+  }
+  return amount;
+};
+
+module.exports = numberOfOnes;
