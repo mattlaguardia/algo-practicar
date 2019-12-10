@@ -3,7 +3,7 @@
 This project uses yarn as a package manager. So no `npm install`, instead use `yarn install`
 
 ## Todos:
-  
+
   **Set up**
   ---
     - [x] Set up directories with questions
@@ -11,7 +11,7 @@ This project uses yarn as a package manager. So no `npm install`, instead use `y
         - example: 20191120_question
       - [x] by_source
         - example: leet_code, katas, some_website
-      - [x] by_difficulty 
+      - [x] by_difficulty
         - example: easy, medium, hard
       - [x] by_type
         - example: dynamic_programming, data_structure, sorting
@@ -30,16 +30,16 @@ This project uses yarn as a package manager. So no `npm install`, instead use `y
 
 ### How to test
   ---
-  > This project has been set up with jest for testing nodejs. We may want to consider using a node -> es6 package as we are not able to use 
-  ```javascript 
+  > This project has been set up with jest for testing nodejs. We may want to consider using a node -> es6 package as we are not able to use
+  ```javascript
     import packageName from 'dependency'
   ```
   > and that is no bueno. Maybe we just use node 12 since node 12.2 uses dynamic imports...
-  > You can globally test with 
-  ```bash 
-    yarn test 
+  > You can globally test with
+  ```bash
+    yarn test
   ```
-  > but if you would like to just test a single file use the match flag
-  ```bash 
-    yarn test --match=number-of-ones.test.js
-  ``` 
+  > but if you would like to just test a single file use 
+  ```bash
+    yarn test number-of-ones.test.js
+  ```
