@@ -1,4 +1,4 @@
-const minimumCoinChange = require('./minimum-coin-change');
+const minimumCoinChange = require('./minimum-coin-change.matt');
 
 test('fewest number of coins with coins being [1, 2, 5] and amount 11', () => {
   expect(minimumCoinChange([1,2,5], 11)).toBe(3);

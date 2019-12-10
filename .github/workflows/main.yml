@@ -4,7 +4,7 @@ on:
   push:
     branches:
     - master
-    paths: 
+    paths:
       - 'algos/**'
 
 jobs:
@@ -18,4 +18,4 @@ jobs:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
       uses: Ilshidur/action-slack@master
       with:
-        args: 'A new questions has been pushed to algo-practicar'
+        args: 'A new question has been pushed to algo-practicar'
