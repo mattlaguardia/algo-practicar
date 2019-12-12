@@ -16,6 +16,8 @@ jobs:
     - name: Slack notification
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_USERNAME: 'Algo Bot Says:'
+        SLACK_OVERRIDE_MESSAGE: true
       uses: Ilshidur/action-slack@master
       with:
-        args: 'A new question has been pushed to algo-practicar'
+        args: 'New question added by: {{ EVENT_PAYLOAD.pusher.name }} \n {{ EVENT_PAYLOAD.repository.url }} '
