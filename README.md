@@ -39,7 +39,11 @@ This project uses yarn as a package manager. So no `npm install`, instead use `y
   ```bash
     yarn test
   ```
-  > but if you would like to just test a single file use 
+  > but if you would like to just test a single file use
   ```bash
     yarn test number-of-ones.test.js
+  ```
+  > if you would like to watch that file you could to continuously run
+  ```bash
+    yarn test number-of-ones.test.js --watch
   ```
