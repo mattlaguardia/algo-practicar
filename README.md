@@ -21,10 +21,14 @@ This project uses yarn as a package manager. So no `npm install`, instead use `y
       - maybe use jest if node compatible
     - [ ] Set up js linters
     - [x] Set up github action
+    - [ ] Set up a cron job in github actions to run job(s) that
+        - [ ] remind slack channel to contribute if their hasn't been contributions in past 2 weeks
+        - [ ] run job(s) that pull questions from somewhere
 
   **Application**
   ---
     - [ ] Set up bot to pull a question a week
+        - Look into using github actions -> jobs sequence
     - [ ] Set up a simple dev server for servering up static front end
     - [ ] Set up so that testing suite show errors on front end markup
 
