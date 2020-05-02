@@ -9,6 +9,6 @@
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "24.9.0"
+    "jest": "25.5.4"
   }
 }
